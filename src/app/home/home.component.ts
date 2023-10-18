@@ -21,14 +21,13 @@ import { HousingLocation } from '../housinglocation';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  readonly baseUrl = 'https://upload.wikimedia.org/wikipedia/commons/';
 
   housingLocation: HousingLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
     state: 'ST',
-    photo: `${this.baseUrl}0/07/El_Gouna_Turtle_House_R01.jpg`,
+    photo: "/assets/casa_prueba.jpg",
     availableUnits: 99,
     wifi: true,
     laundry: false,
